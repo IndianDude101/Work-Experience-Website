@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/12/spiderverseextendedposter.jpg);
+    background-size: cover;
+}
+.movie-container{
+    width: 65%;
+    height: auto;
+    border: 5px solid rgba(250, 243, 243, 0.685);
+    background: rgba(255, 255, 255, 0.671);
+}
+
+img{
+    float: right;
+}
+.title{
+    position: absolute;
+    color: black;
+    padding: 50px 80px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.dis{
+    position: absolute;
+    top: 37%;
+    padding: 80px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.rate{
+    padding: 80px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 47%;
+}
+button{
+    position: absolute;
+    top: 59%;
+    left: 40%;
+    padding: 30px 20px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+button:hover{
+    color: rgba(0, 0, 0, 0.671);
+    background: rgba(255, 255, 255, 0.671);
+}
